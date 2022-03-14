@@ -21,5 +21,7 @@ public class Main {
         Area area = new Area(candyBag, 3, "street1");
         area.printAddress();
 
+        PasswordMaker pass = PasswordMaker.getInstance("abcdef");
+        System.out.println(pass.getPassword());
     }
 }
